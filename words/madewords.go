@@ -17,7 +17,7 @@
 // using each char in a similar way to a hash value, so we are saving time on
 // constructing hash values at the expense of dealing with a deeper, unbalanced
 // search trie.
-// 
+//
 // The emphasis was speed over simplicity.
 
 package main
@@ -85,7 +85,6 @@ func main() {
 	}
 
 	fmt.Println("Threads:", worker_count)
-	fmt.Println(os.Getwd())
 
 	// Read the entire file into a memory buffer
 	file, err := os.Open(words_file)
